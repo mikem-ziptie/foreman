@@ -22,7 +22,7 @@ module Menu
       end
 
       Manager.map :admin_menu do |menu|
-        menu.sub_menu :administer_menu,  :caption => N_('Administer'), :icon => 'fa fa-cog' do
+        menu.sub_menu :administer_menu,  :caption => N_('Admin'), :icon => 'fa fa-cog' do
           menu.item :locations,          :caption => N_('Locations')
           menu.item :organizations,      :caption => N_('Organizations')
           menu.item :auth_sources,       :caption => N_('Authentication Sources')
